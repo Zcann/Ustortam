@@ -6,7 +6,7 @@ export default function Photo() {
   return (
     <div className=" bg-gradient-to-b from-slate-50 to-slate-700 h-screen">
       <div className=" ">
-        <Carousel autoplay dotPosition="top" >
+        <Carousel autoplay  >
           <div className=" text-center mt-20 drop-shadow-2xl ">
             <Image
               style={{borderRadius: "0.75rem", maxWidth: "42rem" }}

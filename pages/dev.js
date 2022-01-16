@@ -3,13 +3,16 @@ import { Slider, Menu, Button, Form, Input } from "antd";
 const { SubMenu } = Menu;
 
 export default function Dev() {
+  
+
+  
   return (
-    <div className=" bg-gradient-to-b from-slate-50 to-slate-700  ">
+    <div className=" bg-gradient-to-b from-slate-50 to-slate-700 h-full  ">
       <div className="h-10"></div>
-      <div className="md:grid grid-cols-2 gap-10  mx-auto max-w-screen-xl h-screen">
+      <div className="md:grid grid-cols-2 gap-10  mx-auto max-w-screen-xl md:h-screen ">
         <div className="m-10 h-48">
           {" "}
-          <Menu onClick={{}} mode="horizontal">
+          <Menu mode="horizontal">
             <Menu.Item key="mail">Navigation One</Menu.Item>
             <Menu.Item key="app" disabled>
               Navigation Two
@@ -23,7 +26,7 @@ export default function Dev() {
           </Menu>
         </div>
         <div className="m-10">
-          <Button type="primary">Primary Button</Button>
+          <Button  type="primary">Primary Button</Button>
           <Button>Default Button</Button>
           <Button type="dashed">Dashed Button</Button>
           <br />

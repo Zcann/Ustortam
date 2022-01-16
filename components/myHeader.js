@@ -1,11 +1,12 @@
-import { Menu, Space } from "antd";
+import { Menu, Space, Button } from "antd";
 import Link from "next/link";
+
 
 export default function MyHeader({ children }) {
   return (
     <div className="">
-      <div className=" ">
-        <div>
+      <div className="fixed w-full z-10">
+        <div className=" ">
           <Menu
             style={{
               justifyContent: "center",
@@ -30,8 +31,8 @@ export default function MyHeader({ children }) {
             </Space>
           </Menu>
         </div>
-      </div >
-      <div >{children}</div>
+      </div>
+      <div>{children}</div>
     </div>
   );
 }
