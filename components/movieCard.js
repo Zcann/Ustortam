@@ -3,12 +3,12 @@ import { Image } from "antd";
 
 export default function MovieCard(props){
     return(
-        <div className="py-3 sm:max-w-xl sm:mx-auto">
-        <div className="bg-white shadow-lg border-gray-100 max-h-80	border sm:rounded-3xl p-8 flex space-x-8">
-          <div className=" overflow-visible w-1/2">
+        <div className="py-3 max-w-xl mx-auto">
+        <div className="bg-white shadow-lg border-gray-100 max-h-80	border rounded-3xl p-8 flex space-x-8">
+          <div className="  w-1/3">
             <Image
               preview={false}
-              className="rounded-3xl shadow-lg"
+              className="rounded-3xl shadow-lg min-w-full"
               src= {props.source}
               alt=""
             />
@@ -16,7 +16,7 @@ export default function MovieCard(props){
           <div className="flex flex-col w-1/2 space-y-4">
             <div className="flex justify-between items-start">
               <h2 className="text-3xl font-bold">
-                Film Adi
+                Film Adi 
               </h2>
               <div className="bg-yellow-400 font-bold rounded-xl p-2">7.2</div>
             </div>

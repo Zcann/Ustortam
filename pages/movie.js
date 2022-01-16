@@ -8,7 +8,7 @@ import MovieCard from "../components/movieCard";
 export default function Movie() {
   return (
     <div className=" bg-gradient-to-b from-slate-50 to-slate-700 h-screen">
-      <div className="grid grid-cols-2 gap-12 mx-auto max-w-screen-xl">
+      <div className="lg:grid grid-cols-2 gap-12 mx-auto max-w-screen-xl">
         <MovieCard source={inf.src} />
         <MovieCard source={maze.src} />
         <MovieCard source={ragnarok.src} />
